@@ -1,0 +1,58 @@
+.main-content {
+  width: 100%;
+  height: 158vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f2f5; /* Light background color for contrast */
+  padding: 20px; /* Padding around the content */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ffffff; /* White background for the header */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px; /* Adjust the size of the logo */
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+  padding: 8px 12px;
+  border: 1px solid #ddd; /* Light border for the search bar */
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.profile-picture {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #ddd; /* Border around the profile picture */
+}
+
+/* Additional styling for main content sections */
+.main-content > div {
+  background-color: #ffffff; /* White background for the main sections */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}

@@ -1,0 +1,42 @@
+.sidebar {
+  width: 250px; /* Adjust width as needed */
+  background-color: #57a7f8; /* Dark blue background color */
+  color: #ffffff; /* White text color */
+  height: 162vh; /* Make sidebar full height */
+  padding-top: 20px; /* Add padding to the top */
+  font-family: Arial, sans-serif; /* Use a professional font */
+}
+
+.sidebar h2 {
+  margin-bottom: 20px; /* Add margin below heading */
+  padding-left: 20px; /* Add padding to align with list items */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px; /* Add padding on all sides */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.sidebar li:hover {
+  background-color: #446288; /* Darken background color on hover */
+}
+
+.sidebar li.active {
+  background-color: #1abc9c; /* Highlight active item */
+}
+
+.sidebar li.active:hover {
+  background-color: #16a085; /* Darken active item on hover */
+}
+
+.sidebar li svg {
+  margin-right: 10px; /* Add space between icon and text */
+}

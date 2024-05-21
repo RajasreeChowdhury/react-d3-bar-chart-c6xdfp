@@ -1,0 +1,13 @@
+.calendar-container {
+  padding: 20px;
+}
+
+.calendar-navigation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-navigation .ant-btn {
+  margin-right: 10px;
+}

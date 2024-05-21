@@ -1,0 +1,31 @@
+.analytics {
+  padding: 20px;
+}
+
+.employee-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.employee-list button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.employee-list button:hover {
+  background-color: #0056b3;
+}
+
+.analytics-details {
+  margin-top: 20px;
+}
+
+.chart {
+  margin: 20px 0;
+}
